@@ -1,23 +1,3 @@
-key objectives a. document API specification using RAML 1.0 b. use JGiven to write document scenario that captures behavior c. build persistence module : spring data jpa, querydsl, liquibase and mysql d. build persistence module test cases using h2 e. publish the event
-
-technical specification
-
-maven as build tool
-
-cucumber as behavior driven development framework
-
-https://medium.com/@bcarunmail/set-up-and-run-cucumber-tests-in-spring-boot-application-d0c149d26220 https://github.com/bcarun/cucumber-samples/tree/master/hello-springboot-cucumber
-
-spring data jpa
-
-spring rest controllers
-
-spring state machine
-
-spring oauth2
-
-keycloak for security management
-
 scenarios (MVP)
 
 opening-creation - as business owner I am able to register new opening that needs to be fulfilled (refer Career Site Management here https://recruiterbox.com/recruitment-software-features/share-notes-evaluations-internally)
