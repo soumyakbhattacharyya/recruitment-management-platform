@@ -19,9 +19,7 @@ public class RunCucumberTest {
   public void i_want_to_register_an_opening() throws Exception {
     Opening opening = OpeningFactory.THIS.createOpening();
     OpeningServiceImpl serviceImpl = new OpeningServiceImpl();
-    serviceImpl.registerOpening(opening);
-
-    
+    serviceImpl.registerOpening(opening);   
   }
 
   @When("^I register$")
